@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Codelab CI/CD - Frontend App</h1>
-      <h1>Ingeniería en el Software: SOLID & Design Patterns</h1>
+      <h2>Ingeniería en el Software: SOLID & Design Patterns</h2>
       <h2>The Refactor Project</h2>
       <p>Developer: Berenguer Pou</p>
       <p>Entrega: 9/03/2024</p>

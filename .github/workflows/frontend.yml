@@ -57,4 +57,4 @@ jobs:
         with:
           context: ./front-end-app # El working directory
           push: true
-          tags: ghcr.io/${{ github.actor }}/beringar_codelab-cicd-TRP-beringar-web-app-front:latest # Añadimos el tag de la imagen apuntando al registry de Github
+          tags: ghcr.io/${{ github.actor }}/beringar_codelab-cicd-trp-beringar-web-app-front:latest # Añadimos el tag de la imagen apuntando al registry de Github

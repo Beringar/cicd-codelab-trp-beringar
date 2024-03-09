@@ -17,7 +17,7 @@ describe('AppController', () => {
   describe('root', () => {
     it('should return "Hello World!"', () => {
       expect(appController.getHello()).toBe(
-        'Hello World from Codelab CICD TRP / Berenguer Nest.js is working!',
+        'Hello World from Codelab ci/cd | Berenguer Nest.js is working!',
       );
     });
   });

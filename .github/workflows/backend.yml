@@ -56,3 +56,11 @@ jobs:
           context: ./back-end-app # El working directory
           push: true
           tags: ghcr.io/${{ github.actor }}/codelab-cicd-trp-beringar-web-app-back:latest # Añadimos el tag de la imagen apuntando al registry de Github
+
+      - name: Deploy
+        # Only run this step if the branch is main
+        if: github.ref == 'refs/heads/main'
+        env:
+          deploy_url: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          curl "$deploy_url"

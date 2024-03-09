@@ -16,10 +16,9 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Codelab CI/CD</h1>
+      <h1>Codelab CI/CD - Frontend App</h1>
       <h1>Ingeniería en el Software: SOLID & Design Patterns</h1>
       <h2>The Refactor Project</h2>
-      <h3>Frontend App</h3>
       <p>Developer: Berenguer Pou</p>
       <p>Entrega: 9/03/2024</p>
       <div className="card">

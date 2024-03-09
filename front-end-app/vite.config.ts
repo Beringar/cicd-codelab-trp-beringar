@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   test: {
     coverage: {
-      reporter: ['text', 'json', 'html'],
+      reporter: ['text', 'html', 'clover', 'json', 'lcov'],
     },
   },
 });
